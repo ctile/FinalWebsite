@@ -67,7 +67,7 @@ footer {
   border-radius: 50px;
 }
 #copyright {
-  color: red;
+  color: #ff2b2b;
 }
 .landing {
   background-color: #1a2588;
@@ -105,14 +105,8 @@ ul {
   padding: 0px 50% 0px 45%;
 }
 
-#racing {
-  font-weight: bold;
-}
-#power {
-  font-weight: bold;
-}
 #carbon {
-  color: rgb(0, 128, 0);
+  color: rgb(71, 255, 71);
   font-weight: bold;
 }
 a:link {

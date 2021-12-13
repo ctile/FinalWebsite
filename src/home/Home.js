@@ -51,10 +51,10 @@ function Home() {
               />
               <p>
                 Enter the world of{" "}
-                <span id="racing">
-                  <em>competitive</em> racing
-                </span>
-                . Motocross dirt bikes are geared towards racing and track
+                <strong>
+                  <em>competitive</em> racing.
+                </strong>{" "}
+                Motocross dirt bikes are geared towards racing and track
                 oriented riding. Here you will find an unordered list of the
                 most reputable brands in the industry. These links will take you
                 directly to the exact location on their website for motocross
@@ -78,13 +78,13 @@ function Home() {
                 pageName="trail"
               />
               <p>
-                Like riding trails near the <span id="power">power lines?</span>{" "}
-                Trail bikes are geared towards off-road riding, with more focus
-                on slower spead technical riding. Here you will find an
-                unordered list of the most reputable brands in the industry.
-                These links will take you directly to the exact location on
-                their website for trail bikes, saving you search time! Take a
-                look at each website to find the best trail bike for you.
+                Like riding trails near the <strong>power lines?</strong> Trail
+                bikes are geared towards off-road riding, with more focus on
+                slower spead technical riding. Here you will find an unordered
+                list of the most reputable brands in the industry. These links
+                will take you directly to the exact location on their website
+                for trail bikes, saving you search time! Take a look at each
+                website to find the best trail bike for you.
               </p>
             </section>
 
