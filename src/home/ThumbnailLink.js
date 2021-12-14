@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ThumbnailLink(props) {
   return (
-    <Link to={`${props.pageName}/${props.pageName}.html`}>
+    <Link to={`/${props.pageName}/${props.pageName}.html`}>
       <img
         src={props.lowResThumb}
         srcSet={`${props.highResThumb} ${4 * props.width}w,
