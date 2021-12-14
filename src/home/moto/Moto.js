@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import moto from "../images/MOTO.jpg";
 import motoT from "../thumbnails/MOTOcopy.jpg";
 import ThumbnailLink from "../ThumbnailLink.js";
+import Nav from "../Nav.js";
 
 function Moto() {
   return (
     <section class="landing">
       <h1>MotoMania - Motocross </h1>
+      <Nav />
       <ThumbnailLink
         lowResThumb={motoT}
         highResThumb={moto}

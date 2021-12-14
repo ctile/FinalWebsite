@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import ebike from "../images/EBIKE.jpg";
 import ebikeT from "../thumbnails/EBIKEcopy.jpg";
 import ThumbnailLink from "../ThumbnailLink.js";
+import Nav from "../Nav.js";
 
 function Ebike() {
   return (
     <section class="landing">
       <h1>MotoMania - E-Bike </h1>
+      <Nav />
       <ThumbnailLink
         lowResThumb={ebikeT}
         highResThumb={ebike}

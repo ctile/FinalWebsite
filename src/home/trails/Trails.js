@@ -2,11 +2,13 @@ import { Link } from "react-router-dom";
 import trail from "../images/TRAIL.jpg";
 import trailT from "../thumbnails/TRAILcopy.jpg";
 import ThumbnailLink from "../ThumbnailLink.js";
+import Nav from "../Nav.js";
 
 function Trails() {
   return (
     <section class="landing">
       <h1>MotoMania - Trail </h1>
+      <Nav />
       <ThumbnailLink
         lowResThumb={trailT}
         highResThumb={trail}
